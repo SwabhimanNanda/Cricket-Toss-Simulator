@@ -7,7 +7,6 @@ opposition_team = input("Enter the opponent team name: ")
 
 # Toss the coin
 toss_result = random.choice(["heads", "tails"])
-print(f"{name}, you tossed {toss_result}.")
 
 # Check if user won the toss
 if input("Heads or tails? ").lower() == toss_result:
